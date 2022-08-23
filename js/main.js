@@ -8,13 +8,13 @@
 (function main() {
   'use strict'; // Demande un interprétation stricte du code
 
-  const Celsius = Number (prompt ('Entrez un nombre :'));
+  const CELSIUS = Number (prompt ('Entrez un nombre :'));
 
-  let Fahrenheit = Number ((Celsius * 9 / 5) + 32);
-  if( isNaN(Fahrenheit) || isNaN(Fahrenheit)){
+  let fahrenheit = Number ((CELSIUS * 9 / 5) + 32);
+  if( isNaN(fahrenheit) || isNaN(fahrenheit)){
     alert('Entrez un nombre correct');
   }else{
-    alert(`Il fait ${Fahrenheit} Fahrenheit !`);
+    alert(`Il fait ${fahrenheit} Fahrenheit !`);
   }
 
 }()); // Main IIFE
