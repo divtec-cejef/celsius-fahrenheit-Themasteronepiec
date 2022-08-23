@@ -11,7 +11,7 @@
   const CELSIUS = Number (prompt ('Entrez un nombre :'));
 
   let fahrenheit = Number ((CELSIUS * 9 / 5) + 32);
-  if( isNaN(fahrenheit) || isNaN(fahrenheit)){
+  if( isNaN(fahrenheit) ){
     alert('Entrez un nombre correct');
   }else{
     alert(`Il fait ${fahrenheit} Fahrenheit !`);
